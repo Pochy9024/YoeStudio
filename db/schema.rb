@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160620144054) do
+ActiveRecord::Schema.define(version: 20160620172005) do
 
   create_table "designs", force: :cascade do |t|
     t.text     "title"
@@ -19,8 +19,12 @@ ActiveRecord::Schema.define(version: 20160620144054) do
     t.string   "dimentions"
     t.integer  "year"
     t.string   "category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "draws", force: :cascade do |t|
@@ -28,8 +32,12 @@ ActiveRecord::Schema.define(version: 20160620144054) do
     t.string   "technic"
     t.string   "dimentions"
     t.integer  "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "paintings", force: :cascade do |t|
@@ -37,8 +45,12 @@ ActiveRecord::Schema.define(version: 20160620144054) do
     t.string   "technic"
     t.string   "dimentions"
     t.integer  "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "photographs", force: :cascade do |t|
@@ -46,8 +58,12 @@ ActiveRecord::Schema.define(version: 20160620144054) do
     t.string   "technic"
     t.string   "dimentions"
     t.integer  "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "scultures", force: :cascade do |t|
@@ -55,15 +71,23 @@ ActiveRecord::Schema.define(version: 20160620144054) do
     t.string   "technic"
     t.string   "dimentions"
     t.integer  "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
   end
 
   create_table "slides", force: :cascade do |t|
     t.text     "title"
     t.text     "text"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "slide_file_name"
+    t.string   "slide_content_type"
+    t.integer  "slide_file_size"
+    t.datetime "slide_updated_at"
   end
 
   create_table "testimonials", force: :cascade do |t|
