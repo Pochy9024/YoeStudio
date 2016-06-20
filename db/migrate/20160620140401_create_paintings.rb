@@ -6,6 +6,7 @@ class CreatePaintings < ActiveRecord::Migration
       t.string :dimentions
       t.integer :year
 
+
       t.timestamps null: false
     end
   end

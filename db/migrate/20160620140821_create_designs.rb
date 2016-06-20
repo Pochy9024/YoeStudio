@@ -5,6 +5,7 @@ class CreateDesigns < ActiveRecord::Migration
       t.string :technic
       t.string :dimentions
       t.integer :year
+      t.string :category
 
       t.timestamps null: false
     end
