@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @sculture.title %>
+</p>
+
+<p>
+  <strong>Technic:</strong>
+  <%= @sculture.technic %>
+</p>
+
+<p>
+  <strong>Dimentions:</strong>
+  <%= @sculture.dimentions %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @sculture.year %>
+</p>
+
+<%= link_to 'Edit', edit_sculture_path(@sculture) %> |
+<%= link_to 'Back', scultures_path %>

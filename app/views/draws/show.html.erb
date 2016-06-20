@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @draw.title %>
+</p>
+
+<p>
+  <strong>Technic:</strong>
+  <%= @draw.technic %>
+</p>
+
+<p>
+  <strong>Dimentions:</strong>
+  <%= @draw.dimentions %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @draw.year %>
+</p>
+
+<%= link_to 'Edit', edit_draw_path(@draw) %> |
+<%= link_to 'Back', draws_path %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @painting.title %>
+</p>
+
+<p>
+  <strong>Technic:</strong>
+  <%= @painting.technic %>
+</p>
+
+<p>
+  <strong>Dimentions:</strong>
+  <%= @painting.dimentions %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @painting.year %>
+</p>
+
+<%= link_to 'Edit', edit_painting_path(@painting) %> |
+<%= link_to 'Back', paintings_path %>

@@ -1,0 +1,2 @@
+module SculturesHelper
+end
