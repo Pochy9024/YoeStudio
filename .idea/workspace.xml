@@ -2,27 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab330a65-17e3-4acf-abe5-8d347b4b8814" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/contact.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/designs.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/draws.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/paintings.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/photographs.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/scultures.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/slides.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/testimonials.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/contact.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/designs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/draws.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/paintings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/photographs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scultures.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/slides.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/testimonials.scss" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/01 Yoe Riba (Body art en Desfile Inaugural 32 Festival del Caribe).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/02 Yoe Riba (escultura barro).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/03 Yoe Riba (haciendo arte en vivo en Stgo de Cuba).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/04 Yoe Riba (restaurando puerta de 193X.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/05 Yoe Riba (esculpiendo relieve en madera).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/06 Yoe Riba (puliendo artesania).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/logos/Registro Nacional de Diseño.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/img/about/logos/logo_acaa.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/img/icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/img/icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/img/icons/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/img/icons/twitter.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/icons/facebook.png" afterPath="$PROJECT_DIR$/app/assets/images/img/icons/facebook.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/icons/linkedin.png" afterPath="$PROJECT_DIR$/app/assets/images/img/icons/linkedin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/icons/rss.png" afterPath="$PROJECT_DIR$/app/assets/images/img/icons/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/icons/twitter.png" afterPath="$PROJECT_DIR$/app/assets/images/img/icons/twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/Untitled.png" afterPath="$PROJECT_DIR$/app/assets/images/img/Untitled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/about-us.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/about-us.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/bars.png" afterPath="$PROJECT_DIR$/app/assets/images/img/bars.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/blog/1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/blog/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/blog/2.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/blog/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/blog/3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/blog/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/blog/4.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/blog/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/bx_loader.gif" afterPath="$PROJECT_DIR$/app/assets/images/img/bx_loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/app/assets/images/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/app/assets/images/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/icomoon-social.png" afterPath="$PROJECT_DIR$/app/assets/images/img/icomoon-social.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logo.png" afterPath="$PROJECT_DIR$/app/assets/images/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-10.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-11.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-12.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-13.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-14.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-15.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-2.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-4.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-5.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-6.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-7.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-8.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/logos/logo-9.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/logos/logo-9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/2.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/4.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/5.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/6.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/7.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/portfolio/8.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/portfolio/8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/slides/1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/slides/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/slides/2.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/slides/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/slides/3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/slides/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/team/1.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/team/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/team/2.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/team/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/team/3.jpg" afterPath="$PROJECT_DIR$/app/assets/images/img/team/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/img/title-before.png" afterPath="$PROJECT_DIR$/app/assets/images/img/title-before.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/icomoon-social.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/icomoon-social.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="YoeStudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +156,8 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="335">
+              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -123,8 +166,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="450">
+              <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -166,8 +209,8 @@
         <option value="$PROJECT_DIR$/app/models/photograph.rb" />
         <option value="$PROJECT_DIR$/app/models/sculture.rb" />
         <option value="$PROJECT_DIR$/app/views/contact/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/about/index.html.erb" />
       </list>
     </option>
@@ -415,7 +458,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YoeStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,12 +566,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images/img" />
+      <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/images/img/about/logos" />
+      <recent name="$PROJECT_DIR$/app/assets/images/img/about" />
       <recent name="$PROJECT_DIR$/config/initializers" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets" />
-      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
     </key>
   </component>
   <component name="RunManager" selected="Rake.db:migrate: YoeStudio">
@@ -653,12 +790,12 @@
       <option name="presentableId" value="Default" />
       <updated>1466429752328</updated>
       <workItem from="1466429753567" duration="7484000" />
-      <workItem from="1466603259316" duration="8680000" />
+      <workItem from="1466603259316" duration="10743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16164000" />
+    <option name="totallyTimeSpent" value="18227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -974,7 +1111,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/img/icons/linkedin.png">
+    <entry file="file://$PROJECT_DIR$/app/assets/images/img/icons/linkedin.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1086,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1102,10 +1231,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="450">
+          <caret line="112" column="44" selection-start-line="112" selection-start-column="44" selection-end-line="112" selection-end-column="44" />
           <folding />
         </state>
       </provider>
