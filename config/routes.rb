@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'contact/index'
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :testimonials
   resources :slides
