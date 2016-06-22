@@ -65,9 +65,9 @@
             <%= link_to 'Inicio', slides_path %>
           </li>
 
-          <!--<li class="<%#= 'active' if current_page?(about_me_path) %>">
-            <%#= link_to 'Sobre Mi', about_me_path %>
-          </li>-->
+          <li class="<%= 'active' if current_page?(about_index_path) %>">
+            <%= link_to 'Sobre Mi', about_index_path %>
+          </li>
           <li class="<%= 'active' if current_page?(paintings_path) %>">
             <%= link_to 'Pinturas', paintings_path %>
           </li>
@@ -86,9 +86,7 @@
           <li class="<%= 'active' if current_page?(contact_index_path) %>">
             <%= link_to 'Contacto', contact_index_path %>
           </li>
-          <!--<li class="<%#= 'active' if current_page?(contact_path) %>">
-            <%#= link_to 'Contacto', contact_path %>
-          </li>-->
+
         </ul>
       </ul>
     </div>
