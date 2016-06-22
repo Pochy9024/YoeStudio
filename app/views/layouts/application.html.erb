@@ -54,7 +54,7 @@
         <span class="icon-bar"></span>
       </button>
       <%= link_to root_path , :class => 'navbar-brand' do %>
-          <%= image_tag 'img/logo.png', :alt => 'S.G.N' %>
+          <%= image_tag 'logo.png', :alt => 'Yoe Riba Estudio' %>
       <% end %>
 
     </div>
@@ -70,6 +70,9 @@
           </li>-->
           <li class="<%= 'active' if current_page?(paintings_path) %>">
             <%= link_to 'Pinturas', paintings_path %>
+          </li>
+          <li class="<%= 'active' if current_page?(photographs_path) %>">
+            <%= link_to 'Fotografias', photographs_path %>
           </li>
           <li class="<%= 'active' if current_page?(scultures_path) %>">
             <%= link_to 'Esculturas', scultures_path %>
@@ -105,7 +108,7 @@
       <div class="col-footer col-md-4 col-xs-6">
         <h3>Contacto</h3>
         <p class="contact-us-details">
-          <b>Direccion:</b> Panchito Gomez 323. Apto 2 e/ 20 de Mayo y Enrique Villuendas, Cerro, La Habana<br/>
+          <b>Estudio:</b> Panchito Gomez 323. Apto 2 e/ 20 de Mayo y Enrique Villuendas, Cerro, La Habana<br/>
           <b>Telefono:</b> +535 316 2809<br/>
           <b>E-mail:</b> <a href="mailto:yoeriba@nauta.cu">yoeriba@nauta.cu</a>
         </p>
@@ -114,9 +117,16 @@
         <h3>Redes Sociales</h3>
         <p>Tambien pueden encontrarnos en las redes sociales......</p>
         <div>
-          <a href="https://www.facebook.com/yoeriba?fref=ts"><img src="../img/icons/facebook.png" width="32" alt="Facebook"></a>
-          <img src="../img/icons/twitter.png" width="32" alt="Twitter">
-          <img src="../img/icons/linkedin.png" width="32" alt="LinkedIn">
+          <%= link_to 'https://www.facebook.com/yoeriba?fref=ts' do %>
+            <%= image_tag 'icons/facebook.png', alt: 'Facebook' %>
+          <% end  %>
+          <%= link_to 'http://twitter.com' do %>
+            <%= image_tag 'icons/twitter.png', alt: 'Twitter'  %>
+          <% end %>
+          <%= link_to 'http://linkedin.com' do %>
+              <%= image_tag 'icons/linkedin.png', alt: 'Linkedin'  %>
+          <% end %>
+
 
         </div>
       </div>
@@ -132,7 +142,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-copyright">&copy; 2016 Sistema de Gestion de Noticias.</div>
+        <div class="footer-copyright">&copy; Yoe Riba Estudio</div>
       </div>
     </div>
   </div>
