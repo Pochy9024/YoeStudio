@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require bootstrap.min
+//= require jquery.easing.min
+//= require scrolling-nav
 //= require_tree .

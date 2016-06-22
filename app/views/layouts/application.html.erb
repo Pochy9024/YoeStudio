@@ -60,30 +60,30 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="<%= 'active' if current_page?(slides_path) %>">
+            <%= link_to 'Inicio', slides_path %>
+          </li>
 
-        <li class="<%= 'active' if current_page?(articles_path) %>">
-
-          <%= link_to 'Inicio', articles_path %>
-
-        </li>
-
-
-        <li>
-          <%= link_to 'Contacto', contact_path %>
-        </li>
-
-        <% if user_signed_in? %>
-            <li>
-              <%= link_to 'Salir', destroy_user_session_path, :method => :delete %>
-            </li>
-            <li>
-              <a>Autenticado como:  <%= current_user.email %></a>
-            </li>
-        <% else %>
-            <li>
-              <%= link_to 'Autenticarse', new_user_path %>
-            </li>
-        <% end %>
+          <!--<li class="<%#= 'active' if current_page?(about_me_path) %>">
+            <%#= link_to 'Sobre Mi', about_me_path %>
+          </li>-->
+          <li class="<%= 'active' if current_page?(paintings_path) %>">
+            <%= link_to 'Pinturas', paintings_path %>
+          </li>
+          <li class="<%= 'active' if current_page?(scultures_path) %>">
+            <%= link_to 'Esculturas', scultures_path %>
+          </li>
+          <li class="<%= 'active' if current_page?(draws_path) %>">
+            <%= link_to 'Dibujos', draws_path %>
+          </li>
+          <li class="<%= 'active' if current_page?(designs_path) %>">
+            <%= link_to 'Disennos', designs_path %>
+          </li>
+          <!--<li class="<%#= 'active' if current_page?(contact_path) %>">
+            <%#= link_to 'Contacto', contact_path %>
+          </li>-->
+        </ul>
       </ul>
     </div>
   </div>
@@ -105,18 +105,29 @@
       <div class="col-footer col-md-4 col-xs-6">
         <h3>Contacto</h3>
         <p class="contact-us-details">
-          <b>Direccion:</b> Carretera de San Antonio, UCI<br/>
-          <b>Telefono:</b> +535 123 4567<br/>
-          <b>E-mail:</b> <a href="mailto:ksherrera@estudiantes.uci.cu">ksherrera@estudiantes.uci.cu</a>
+          <b>Direccion:</b> Panchito Gomez 323. Apto 2 e/ 20 de Mayo y Enrique Villuendas, Cerro, La Habana<br/>
+          <b>Telefono:</b> +535 316 2809<br/>
+          <b>E-mail:</b> <a href="mailto:yoeriba@nauta.cu">yoeriba@nauta.cu</a>
         </p>
       </div>
       <div class="col-footer col-md-4 col-xs-6">
+        <h3>Redes Sociales</h3>
+        <p>Tambien pueden encontrarnos en las redes sociales......</p>
+        <div>
+          <a href="https://www.facebook.com/yoeriba?fref=ts"><img src="../img/icons/facebook.png" width="32" alt="Facebook"></a>
+          <img src="../img/icons/twitter.png" width="32" alt="Twitter">
+          <img src="../img/icons/linkedin.png" width="32" alt="LinkedIn">
 
+        </div>
       </div>
       <div class="col-footer col-md-4 col-xs-6">
-        <h3>Sobre la Aplicacion</h3>
-        <p>Esta aplicacion ha sido desarrollada por estudiantes de la UCI para tener monitoreadas las noticias que aprecen en el mundo sobre nuestro pais. </p>
+        <h3>Agencia Publicitaria Skylines</h3>
+        <p>La Agencia Publicitaria Skylines fue la encargada de la elaboracion de nuestro sitio web....<br>
+          <b>Telefono:</b> +535 268 6068<br/>
+          <b>E-mail:</b> <a href="mailto:skylinesagency@gmail.cu">skylinesagency@gmail.com</a></p>
       </div>
+
+    </div>
 
     </div>
     <div class="row">
