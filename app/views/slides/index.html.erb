@@ -1,13 +1,13 @@
 <section id="main-slider" class="no-margin">
   <div class="carousel slide">
     <ol class="carousel-indicators">
-      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#main-slider" data-slide-to="0"></li>
       <li data-target="#main-slider" data-slide-to="1"></li>
       <li data-target="#main-slider" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <% @slides.each_with_index  do |slides, index| %>
-         <%= render 'slides/form', :slide => slides, :active => index == 0 ? true : false  %>
+      <% @slides.each_with_index  do |slide, index| %>
+         <%= render 'slides/form', :slide => slide, :active => index == 0, :center => index.odd?  %>
       <% end  %>
 
     </div><!--/.carousel-inner-->
@@ -20,34 +20,130 @@
   </a>
 </section><!--/#main-slider-->
 
+
+<!-- Black Bar -->
+<div class="section section-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="calltoaction-wrapper">
+          <h3>Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podra degustar todo su arte.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
 <!--Services-->
 <div class="section section-white">
   <div class="container">
+    <div class="section-title">
+      <h1>Servicios</h1>
+    </div>
+    <hr>
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <div class="service-wrapper">
           <i class="icon-home"></i>
-          <h3>Aliquam in adipiscing</h3>
-          <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
-          <a href="#" class="btn">Read more</a>
+          <h3>Trabajos a domicilio</h3>
+          <p>Realizo trabajos de restauracion a domicilio...</p>
+          <!--<a href="#" class="btn">Read more</a>-->
         </div>
       </div>
       <div class="col-md-4 col-sm-6">
         <div class="service-wrapper">
           <i class="icon-briefcase"></i>
-          <h3>Curabitur mollis</h3>
-          <p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
-          <a href="#" class="btn">Read more</a>
+          <h3>Trabajos por encargo</h3>
+          <p>Realizo trabajos por encargo de cualkier manifestacion...</p>
+          <!--<a href="#" class="btn">Read more</a>-->
         </div>
       </div>
       <div class="col-md-4 col-sm-6">
         <div class="service-wrapper">
           <i class="icon-calendar"></i>
-          <h3>Vivamus mattis</h3>
-          <p>Phasellus posuere et nisl ac commodo. Nulla facilisi. Sed tincidunt bibendum cursus. Aenean vulputate aliquam risus rutrum scelerisque</p>
-          <a href="#" class="btn">Read more</a>
+          <h3>Concertar cita</h3>
+          <p>Ud podra concertar una cita y discutir sobre cualkier servicio o trabajo que desee realizar....</p>
+          <!--<a href="#" class="btn">Read more</a>-->
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Recent Work -->
+
+<div class="section section-white">
+  <div class="container">
+    <div class="row">
+
+      <div class="section-title">
+        <h1>Trabajos Recientes</h1>
+      </div>
+      <hr>
+
+
+      <ul class="grid cs-style-3">
+        <div class="col-md-4 col-sm-6">
+          <figure>
+            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
+            <%= image_tag @paintings.last.image.url(:medium) %>
+            <figcaption>
+              <h3><%= @paintings.last.title %></h3>
+              <span><%= @paintings.last.technic %></span>
+              <a href="portfolio-item.html">Take a look</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <figure>
+            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
+            <%= image_tag @scultures.last.image.url(:medium) %>
+            <figcaption>
+              <h3><%= @scultures.last.title %></h3>
+              <span><%= @scultures.last.technic %></span>
+              <a href="portfolio-item.html">Take a look</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <figure>
+            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
+            <%= image_tag @photos.last.image.url(:medium) %>
+            <figcaption>
+              <h3><%= @photos.last.title %></h3>
+              <span><%= @photos.last.technic %></span>
+              <a href="portfolio-item.html">Take a look</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <figure>
+            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
+            <%= image_tag @draws.last.image.url(:medium) %>
+            <figcaption>
+              <h3><%= @draws.last.title %></h3>
+              <span><%= @draws.last.technic %></span>
+              <a href="portfolio-item.html">Take a look</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <figure>
+            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
+            <%= image_tag @designs.last.image.url(:medium) %>
+            <figcaption>
+              <h3><%= @designs.last.title %></h3>
+              <span><%= @designs.last.technic %></span>
+              <a href="portfolio-item.html">Take a look</a>
+            </figcaption>
+          </figure>
+        </div>
+
+      </ul>
     </div>
   </div>
 </div>

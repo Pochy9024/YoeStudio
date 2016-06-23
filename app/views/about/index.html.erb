@@ -130,16 +130,11 @@
       <center><h4>(Palabras al Catalogo).</h4></center>
       <br>
         <% @testimonials.each do |t| %>
-
-
-
                 <div class="caption"><h3><a><%= t.title %></a></h3></div>
                 <div class="date"><strong>Por:<%= t.author %></strong> </div>
                 <div class="intro"><p>"...<%= t.text %>.."</p></div>
                 <br>
-
-
-
+                <hr>
         <% end %>
 
 

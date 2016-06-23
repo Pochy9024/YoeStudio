@@ -15,4 +15,4 @@
 //= require bootstrap.min
 //= require jquery.easing.min
 //= require scrolling-nav
-//= require_tree .
+// require_tree .

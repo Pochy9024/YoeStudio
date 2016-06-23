@@ -5,6 +5,11 @@ class SlidesController < ApplicationController
   # GET /slides.json
   def index
     @slides = Slide.all
+    @paintings = Painting.all
+    @scultures = Sculture.all
+    @draws = Draw.all
+    @photos = Photograph.all
+    @designs = Design.all
   end
 
   # GET /slides/1
