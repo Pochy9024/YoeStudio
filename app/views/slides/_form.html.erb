@@ -1,25 +1,12 @@
-<%= form_for(@slide) do |f| %>
-  <% if @slide.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@slide.errors.count, "error") %> prohibited this slide from being saved:</h2>
-
-      <ul>
-      <% @slide.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+<div class="item<%= ' active' if active %>" style="background-image: url(<%= image_url slide.slide.url(:medium) %>)">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="carousel-content centered">
+        <h2 class="animation animated-item-1"><%= slide.title if slide.title.present? %></h2>
+        <p class="animation animated-item-2"><%= slide.text if slide.text.present? %> </p>
+      </div>
     </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_area :title %>
   </div>
-  <div class="field">
-    <%= f.label :text %><br>
-    <%= f.text_area :text %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+</div>
+</div><!--/.item-->

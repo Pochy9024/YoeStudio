@@ -1,29 +1,53 @@
-<p id="notice"><%= notice %></p>
+<section id="main-slider" class="no-margin">
+  <div class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#main-slider" data-slide-to="1"></li>
+      <li data-target="#main-slider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <% @slides.each_with_index  do |slides, index| %>
+         <%= render 'slides/form', :slide => slides, :active => index == 0 ? true : false  %>
+      <% end  %>
 
-<h1>Listing Slides</h1>
+    </div><!--/.carousel-inner-->
+  </div><!--/.carousel-->
+  <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+    <i class="icon-angle-left"></i>
+  </a>
+  <a class="next hidden-xs" href="#main-slider" data-slide="next">
+    <i class="icon-angle-right"></i>
+  </a>
+</section><!--/#main-slider-->
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Text</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @slides.each do |slide| %>
-      <tr>
-        <td><%= slide.title %></td>
-        <td><%= slide.text %></td>
-        <td><%= link_to 'Show', slide %></td>
-        <td><%= link_to 'Edit', edit_slide_path(slide) %></td>
-        <td><%= link_to 'Destroy', slide, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Slide', new_slide_path %>
+<!--Services-->
+<div class="section section-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <div class="service-wrapper">
+          <i class="icon-home"></i>
+          <h3>Aliquam in adipiscing</h3>
+          <p>Praesent rhoncus mauris ac sollicitudin vehicula. Nam fringilla turpis turpis, at posuere turpis aliquet sit amet condimentum</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="service-wrapper">
+          <i class="icon-briefcase"></i>
+          <h3>Curabitur mollis</h3>
+          <p>Suspendisse eget libero mi. Fusce ligula orci, vulputate nec elit ultrices, ornare faucibus orci. Aenean lectus sapien, vehicula</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="service-wrapper">
+          <i class="icon-calendar"></i>
+          <h3>Vivamus mattis</h3>
+          <p>Phasellus posuere et nisl ac commodo. Nulla facilisi. Sed tincidunt bibendum cursus. Aenean vulputate aliquam risus rutrum scelerisque</p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
