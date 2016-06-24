@@ -136,9 +136,11 @@
                 <br>
                 <hr>
         <% end %>
-
-
-
     </div>
+    <% if @testimonials.count > 6 %>
+        <div class="apple_pagination">
+          <%= will_paginate @testimonials, :container => true %>
+        </div>
+    <% end %>
   </div>
 </div>

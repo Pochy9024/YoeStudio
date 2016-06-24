@@ -4,7 +4,7 @@ class PaintingsController < ApplicationController
   # GET /paintings
   # GET /paintings.json
   def index
-    @paintings = Painting.all
+    @paintings = Painting.paginate :page => params[:page]
   end
 
   # GET /paintings/1

@@ -32,21 +32,13 @@
             <% image =paint.image.url(:card)%>
             <%= render 'form', :image => image, :paint => paint %>
         <% end %>
-
-
       </ul>
-
-
-
     </div>
-
-    <!--<ul class="pager">
-      <li><a href="#">Anterior</a></li>
-      <li><a href="#">Siguiente</a></li>
-    </ul>-->
-
-
-
-
   </div>
 </div>
+
+<% if @paintings.count > 6 %>
+    <div class="apple_pagination">
+      <%= will_paginate @paintings, :container => true %>
+    </div>
+<% end %>

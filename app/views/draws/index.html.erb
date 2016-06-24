@@ -26,28 +26,18 @@
 <div class="section">
   <div class="container">
     <div class="row">
-
       <ul class="grid cs-style-2">
-
         <% @draws.each do |draw|%>
             <% image =draw.image.url(:card)%>
             <%= render 'form', :image => image, :draw => draw %>
         <% end %>
-
-
       </ul>
-
-
-
     </div>
-
-    <!--<ul class="pager">
-      <li><a href="#">Anterior</a></li>
-      <li><a href="#">Siguiente</a></li>
-    </ul>-->
-
-
-
-
   </div>
 </div>
+
+<% if @draws.count > 6 %>
+    <div class="apple_pagination">
+      <%= will_paginate @draws, :container => true %>
+    </div>
+<% end %>

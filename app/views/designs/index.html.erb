@@ -28,21 +28,14 @@
             <% image =design.image.url(:card)%>
             <%= render 'form', :image => image, :design => design %>
         <% end %>
-
-
       </ul>
-
-
-
     </div>
 
-    <!--<ul class="pager">
-      <li><a href="#">Anterior</a></li>
-      <li><a href="#">Siguiente</a></li>
-    </ul>-->
-
-
-
-
   </div>
+
 </div>
+<% if @designs.count > 6 %>
+  <div class="apple_pagination">
+    <%= will_paginate @designs, :container => true %>
+  </div>
+<% end %>

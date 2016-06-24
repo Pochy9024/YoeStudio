@@ -4,7 +4,7 @@ class SculturesController < ApplicationController
   # GET /scultures
   # GET /scultures.json
   def index
-    @scultures = Sculture.all
+    @scultures = Sculture.paginate :page => params[:page]
   end
 
   # GET /scultures/1

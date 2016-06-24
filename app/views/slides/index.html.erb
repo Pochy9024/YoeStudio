@@ -87,64 +87,30 @@
 
 
       <ul class="grid cs-style-3">
-        <div class="col-md-4 col-sm-6">
-          <figure>
-            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
-            <%= image_tag @paintings.last.image.url(:card) %>
-            <figcaption>
-              <h3><%= @paintings.last.title %></h3>
-              <span><%= @paintings.last.technic %></span>
-              <%= link_to 'Ver Mas'  do %>
-               <% render '/recent_works', :element => @paintings.last %>
-              <% end %>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <figure>
-            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
-            <%= image_tag @scultures.last.image.url(:card) %>
-            <figcaption>
-              <h3><%= @scultures.last.title %></h3>
-              <span><%= @scultures.last.technic %></span>
-              <a href="portfolio-item.html">Take a look</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <figure>
-            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
-            <%= image_tag @photos.last.image.url(:card) %>
-            <figcaption>
-              <h3><%= @photos.last.title %></h3>
-              <span><%= @photos.last.technic %></span>
-              <a href="portfolio-item.html">Take a look</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <figure>
-            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
-            <%= image_tag @draws.last.image.url(:card) %>
-            <figcaption>
-              <h3><%= @draws.last.title %></h3>
-              <span><%= @draws.last.technic %></span>
-              <a href="portfolio-item.html">Take a look</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <figure>
-            <!--<img src="img/portfolio/4.jpg" alt="img04">-->
-            <%= image_tag @designs.last.image.url(:card) %>
-            <figcaption>
-              <h3><%= @designs.last.title %></h3>
-              <span><%= @designs.last.technic %></span>
-              <a href="portfolio-item.html">Take a look</a>
-            </figcaption>
-          </figure>
-        </div>
+                <!-- Painting -->
+                <% element = @paintings.last %>
+                <% image =element.image.url(:card)%>
+                <%= render '/recent_works', :image => image, :element => element %>
 
+                <!-- Sculture -->
+                <% element = @scultures.last %>
+                <% image =element.image.url(:card)%>
+                <%= render '/recent_works', :image => image, :element => element %>
+
+                <!-- Pictures -->
+                <% element = @photos.last %>
+                <% image =element.image.url(:card)%>
+                <%= render '/recent_works', :image => image, :element => element %>
+
+                <!-- Draws -->
+                <% element = @draws.last %>
+                <% image =element.image.url(:card)%>
+                <%= render '/recent_works', :image => image, :element => element %>
+
+                <!-- Designs -->
+                <% element = @designs.last %>
+                <% image =element.image.url(:card)%>
+                <%= render '/recent_works', :image => image, :element => element %>
       </ul>
     </div>
   </div>

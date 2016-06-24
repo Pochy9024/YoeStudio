@@ -4,7 +4,7 @@ class PhotographsController < ApplicationController
   # GET /photographs
   # GET /photographs.json
   def index
-    @photographs = Photograph.all
+    @photographs = Photograph.paginate :page => params[:page]
   end
 
   # GET /photographs/1

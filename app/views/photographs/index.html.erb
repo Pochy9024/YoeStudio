@@ -33,21 +33,13 @@
             <% image =photo.image.url(:card)%>
             <%= render 'form', :image => image, :photo => photo %>
         <% end %>
-
-
       </ul>
-
-
-
     </div>
-
-    <!--<ul class="pager">
-      <li><a href="#">Anterior</a></li>
-      <li><a href="#">Siguiente</a></li>
-    </ul>-->
-
-
-
-
   </div>
 </div>
+
+<% if @photographs.count > 6 %>
+    <div class="apple_pagination">
+      <%= will_paginate @photographs, :container => true %>
+    </div>
+<% end %>
