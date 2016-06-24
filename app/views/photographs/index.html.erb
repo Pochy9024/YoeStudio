@@ -1,33 +1,53 @@
-<p id="notice"><%= notice %></p>
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Disennos</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>Listing Photographs</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Technic</th>
-      <th>Dimentions</th>
-      <th>Year</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <h4><p>La <strong>fotografía</strong> como artes visuales es una técnica que se muestra atractiva y útil para la ornamentación
+        y usos profesionales diversos. <strong>Yoe Riba</strong> la realiza logrando gran variedad de imágenes siendo una de sus tesis
+        <strong>“No crear escenarios por él”</strong>, sino que los capta de la propia naturaleza, a excepción de los trabajos para sus
+        clientes.</p></h4>
+      <hr>
 
-  <tbody>
-    <% @photographs.each do |photograph| %>
-      <tr>
-        <td><%= photograph.title %></td>
-        <td><%= photograph.technic %></td>
-        <td><%= photograph.dimentions %></td>
-        <td><%= photograph.year %></td>
-        <td><%= link_to 'Show', photograph %></td>
-        <td><%= link_to 'Edit', edit_photograph_path(photograph) %></td>
-        <td><%= link_to 'Destroy', photograph, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    </div>
+  </div>
+</div>
 
-<br>
+<div class="section">
+  <div class="container">
+    <div class="row">
 
-<%= link_to 'New Photograph', new_photograph_path %>
+      <ul class="grid cs-style-2">
+
+        <% @photographs.each do |photo|%>
+            <% image =photo.image.url(:card)%>
+            <%= render 'form', :image => image, :photo => photo %>
+        <% end %>
+
+
+      </ul>
+
+
+
+    </div>
+
+    <!--<ul class="pager">
+      <li><a href="#">Anterior</a></li>
+      <li><a href="#">Siguiente</a></li>
+    </ul>-->
+
+
+
+
+  </div>
+</div>

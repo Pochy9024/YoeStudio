@@ -1,24 +1,37 @@
-<p id="notice"><%= notice %></p>
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><%= @painting.title %></h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @painting.title %>
-</p>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Product Image & Available Colors -->
+      <div class="col-sm-6">
+        <div class="product-image-large">
+          <img src="<%= @painting.image %>" alt="Item Name">
 
-<p>
-  <strong>Technic:</strong>
-  <%= @painting.technic %>
-</p>
+        </div>
+        <div class="colors">
+          <span class="color-white"></span>
+          <span class="color-black"></span>
+          <span class="color-blue"></span>
+          <span class="color-orange"></span>
+          <span class="color-green"></span>
+        </div>
+      </div>
 
-<p>
-  <strong>Dimentions:</strong>
-  <%= @painting.dimentions %>
-</p>
+      <div class="col-sm-6 product-details">
+        <p><strong>Tecnica: </strong><%= @painting.technic %></p>
+        <p><strong>Dimension: </strong><%= @painting.dimentions %></p>
+        <p><strong>Anno: </strong><%= @painting.year %></p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Year:</strong>
-  <%= @painting.year %>
-</p>
-
-<%= link_to 'Edit', edit_painting_path(@painting) %> |
-<%= link_to 'Back', paintings_path %>

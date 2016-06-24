@@ -94,7 +94,9 @@
             <figcaption>
               <h3><%= @paintings.last.title %></h3>
               <span><%= @paintings.last.technic %></span>
-              <a href="portfolio-item.html">Take a look</a>
+              <%= link_to 'Ver Mas'  do %>
+               <% render '/recent_works', :element => @paintings.last %>
+              <% end %>
             </figcaption>
           </figure>
         </div>

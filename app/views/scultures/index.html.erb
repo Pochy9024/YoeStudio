@@ -1,33 +1,52 @@
-<p id="notice"><%= notice %></p>
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Esculturas</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>Listing Scultures</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Technic</th>
-      <th>Dimentions</th>
-      <th>Year</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <h4><p>En la <strong>escultura</strong> del artista se observa una técnica del volumen bien notable que se definen con un mismo
+        estilo de trabajo, que con líneas limpias y un trabajo rico en texturas complementan una obra de gran variedad
+        de formas</p></h4>
+      <hr>
 
-  <tbody>
-    <% @scultures.each do |sculture| %>
-      <tr>
-        <td><%= sculture.title %></td>
-        <td><%= sculture.technic %></td>
-        <td><%= sculture.dimentions %></td>
-        <td><%= sculture.year %></td>
-        <td><%= link_to 'Show', sculture %></td>
-        <td><%= link_to 'Edit', edit_sculture_path(sculture) %></td>
-        <td><%= link_to 'Destroy', sculture, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    </div>
+  </div>
+</div>
 
-<br>
+<div class="section">
+  <div class="container">
+    <div class="row">
 
-<%= link_to 'New Sculture', new_sculture_path %>
+      <ul class="grid cs-style-2">
+
+        <% @scultures.each do |sculture|%>
+            <% image =sculture.image.url(:card)%>
+            <%= render 'form', :image => image, :sculture => sculture %>
+        <% end %>
+
+
+      </ul>
+
+
+
+    </div>
+
+    <!--<ul class="pager">
+      <li><a href="#">Anterior</a></li>
+      <li><a href="#">Siguiente</a></li>
+    </ul>-->
+
+
+
+
+  </div>
+</div>

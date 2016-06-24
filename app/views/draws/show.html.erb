@@ -1,24 +1,36 @@
-<p id="notice"><%= notice %></p>
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><%= @draw.title %></h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @draw.title %>
-</p>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <!-- Product Image & Available Colors -->
+      <div class="col-sm-6">
+        <div class="product-image-large">
+          <img src="<%= @draw.image %>" alt="Item Name">
 
-<p>
-  <strong>Technic:</strong>
-  <%= @draw.technic %>
-</p>
+        </div>
+        <div class="colors">
+          <span class="color-white"></span>
+          <span class="color-black"></span>
+          <span class="color-blue"></span>
+          <span class="color-orange"></span>
+          <span class="color-green"></span>
+        </div>
+      </div>
 
-<p>
-  <strong>Dimentions:</strong>
-  <%= @draw.dimentions %>
-</p>
-
-<p>
-  <strong>Year:</strong>
-  <%= @draw.year %>
-</p>
-
-<%= link_to 'Edit', edit_draw_path(@draw) %> |
-<%= link_to 'Back', draws_path %>
+      <div class="col-sm-6 product-details">
+        <p><strong>Tecnica: </strong><%= @draw.technic %></p>
+        <p><strong>Dimension: </strong><%= @draw.dimentions %></p>
+        <p><strong>Anno: </strong><%= @draw.year %></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,33 +1,48 @@
-<p id="notice"><%= notice %></p>
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Disennos</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>Listing Designs</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Technic</th>
-      <th>Dimentions</th>
-      <th>Year</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="section">
+  <div class="container">
+    <div class="row">
 
-  <tbody>
-    <% @designs.each do |design| %>
-      <tr>
-        <td><%= design.title %></td>
-        <td><%= design.technic %></td>
-        <td><%= design.dimentions %></td>
-        <td><%= design.year %></td>
-        <td><%= link_to 'Show', design %></td>
-        <td><%= link_to 'Edit', edit_design_path(design) %></td>
-        <td><%= link_to 'Destroy', design, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    </div>
+  </div>
+</div>
 
-<br>
+<div class="section">
+  <div class="container">
+    <div class="row">
 
-<%= link_to 'New Design', new_design_path %>
+      <ul class="grid cs-style-2">
+
+        <% @designs.each do |design|%>
+            <% image =design.image.url(:card)%>
+            <%= render 'form', :image => image, :design => design %>
+        <% end %>
+
+
+      </ul>
+
+
+
+    </div>
+
+    <!--<ul class="pager">
+      <li><a href="#">Anterior</a></li>
+      <li><a href="#">Siguiente</a></li>
+    </ul>-->
+
+
+
+
+  </div>
+</div>

@@ -1,33 +1,52 @@
-<p id="notice"><%= notice %></p>
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Pinturas</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>Listing Paintings</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Technic</th>
-      <th>Dimentions</th>
-      <th>Year</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <h4><p>La obra pictórica de <strong>Yoe Riba</strong> conceptualiza esencias que trabaja con líneas sueltas llenas de alegrías,
+        estén coloridas o no. La trama de ideas que siempre expone en sus obras es la mezcla de lo real llevado a lo
+        surreal y lo abstracto según la percepción del propio artista.</p></h4>
+      <hr>
 
-  <tbody>
-    <% @paintings.each do |painting| %>
-      <tr>
-        <td><%= painting.title %></td>
-        <td><%= painting.technic %></td>
-        <td><%= painting.dimentions %></td>
-        <td><%= painting.year %></td>
-        <td><%= link_to 'Show', painting %></td>
-        <td><%= link_to 'Edit', edit_painting_path(painting) %></td>
-        <td><%= link_to 'Destroy', painting, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    </div>
+  </div>
+</div>
 
-<br>
+<div class="section">
+  <div class="container">
+    <div class="row">
 
-<%= link_to 'New Painting', new_painting_path %>
+      <ul class="grid cs-style-2">
+
+        <% @paintings.each do |paint|%>
+            <% image =paint.image.url(:card)%>
+            <%= render 'form', :image => image, :paint => paint %>
+        <% end %>
+
+
+      </ul>
+
+
+
+    </div>
+
+    <!--<ul class="pager">
+      <li><a href="#">Anterior</a></li>
+      <li><a href="#">Siguiente</a></li>
+    </ul>-->
+
+
+
+
+  </div>
+</div>
