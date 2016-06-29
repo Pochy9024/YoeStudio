@@ -1,10 +1,6 @@
 <section id="main-slider" class="no-margin">
   <div class="carousel slide">
-    <ol class="carousel-indicators">
-      <li data-target="#main-slider" data-slide-to="0"></li>
-      <li data-target="#main-slider" data-slide-to="1"></li>
-      <li data-target="#main-slider" data-slide-to="2"></li>
-    </ol>
+
     <div class="carousel-inner">
       <% @slides.each_with_index  do |slide, index| %>
          <%= render 'slides/form', :slide => slide, :active => index == 0, :center => index.odd?  %>

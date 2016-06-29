@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="ab330a65-17e3-4acf-abe5-8d347b4b8814" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/slides_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/slides_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/slides/index.html.erb" afterPath="$PROJECT_DIR$/app/views/slides/index.html.erb" />
     </list>
+=======
+    <list default="true" id="ab330a65-17e3-4acf-abe5-8d347b4b8814" name="Default" comment="fix recent work view" />
+>>>>>>> Stashed changes
     <ignored path="YoeStudio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -671,12 +675,20 @@
       <workItem from="1466698924844" duration="6719000" />
       <workItem from="1466773833127" duration="9931000" />
       <workItem from="1466792752101" duration="319000" />
+<<<<<<< Updated upstream
       <workItem from="1467212784328" duration="441000" />
+=======
+      <workItem from="1467212784328" duration="627000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="50148000" />
+=======
+    <option name="totallyTimeSpent" value="50334000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
