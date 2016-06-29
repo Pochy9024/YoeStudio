@@ -35,10 +35,12 @@
       </ul>
     </div>
   </div>
-</div>
+  <br>
 
+</div>
 <% if @paintings.count > 6 %>
     <div class="apple_pagination">
       <%= will_paginate @paintings, :container => true %>
     </div>
 <% end %>
+
