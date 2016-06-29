@@ -88,29 +88,10 @@
 
       <ul class="grid cs-style-3">
                 <!-- Painting -->
-                <% element = @paintings.last %>
-                <% image =element.image.url(:card)%>
-                <%= render '/recent_works', :image => image, :element => element %>
-
-                <!-- Sculture -->
-                <% element = @scultures.last %>
-                <% image =element.image.url(:card)%>
-                <%= render '/recent_works', :image => image, :element => element %>
-
-                <!-- Pictures -->
-                <% element = @photos.last %>
-                <% image =element.image.url(:card)%>
-                <%= render '/recent_works', :image => image, :element => element %>
-
-                <!-- Draws -->
-                <% element = @draws.last %>
-                <% image =element.image.url(:card)%>
-                <%= render '/recent_works', :image => image, :element => element %>
-
-                <!-- Designs -->
-                <% element = @designs.last %>
-                <% image =element.image.url(:card)%>
-                <%= render '/recent_works', :image => image, :element => element %>
+        <% @element.each do |element| %>
+            <% image = element.image.url(:card)%>
+            <%= render '/recent_works', :image => image, :element => element %>
+        <% end %>
       </ul>
     </div>
   </div>
