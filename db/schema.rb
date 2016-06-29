@@ -11,20 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160620172005) do
+ActiveRecord::Schema.define(version: 20160629152059) do
 
   create_table "designs", force: :cascade do |t|
     t.text     "title"
     t.string   "technic"
     t.string   "dimentions"
     t.integer  "year"
-    t.string   "category"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "position"
   end
 
   create_table "draws", force: :cascade do |t|
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 20160620172005) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "position"
   end
 
   create_table "paintings", force: :cascade do |t|
@@ -51,6 +52,7 @@ ActiveRecord::Schema.define(version: 20160620172005) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "position"
   end
 
   create_table "photographs", force: :cascade do |t|
@@ -64,6 +66,7 @@ ActiveRecord::Schema.define(version: 20160620172005) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "position"
   end
 
   create_table "scultures", force: :cascade do |t|
@@ -77,6 +80,7 @@ ActiveRecord::Schema.define(version: 20160620172005) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.integer  "position"
   end
 
   create_table "slides", force: :cascade do |t|
