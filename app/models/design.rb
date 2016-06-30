@@ -3,4 +3,18 @@ class Design < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
   self.per_page = 6
+
+  def positioning
+
+    designs = Design.all.order(:position)
+
+
+    designs.each do |design|
+      if design.position >= self.position
+        design.update_attribute(:position, design.position + 1)
+      end
+    end
+  end
+
+  before_create :positioning
 end

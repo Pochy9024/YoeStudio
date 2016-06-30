@@ -3,4 +3,18 @@ class Photograph < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
   self.per_page = 6
+
+  def positioning
+
+    photos = Photograph.all.order(:position)
+
+
+    photos.each do |photo|
+      if photo.position >= self.position
+        photo.update_attribute(:position, photo.position + 1)
+      end
+    end
+  end
+
+  before_create :positioning
 end

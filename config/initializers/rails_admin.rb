@@ -37,7 +37,41 @@ RailsAdmin.config do |config|
 
     config.model 'Painting' do
 
+      update do
+        exclude_fields :position
+      end
 
+    end
+
+    config.model 'Sculture' do
+
+      update do
+        exclude_fields :position
+      end
+
+    end
+
+    config.model 'Draw' do
+
+      update do
+        exclude_fields :position
+      end
+
+    end
+
+    config.model 'Photograph' do
+
+      update do
+        exclude_fields :position
+      end
+
+    end
+
+    config.model 'Design' do
+
+      update do
+        exclude_fields :position
+      end
 
     end
 

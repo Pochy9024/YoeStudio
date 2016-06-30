@@ -3,4 +3,18 @@ class Sculture < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
   self.per_page = 6
+
+  def positioning
+
+    scultures = Sculture.all.order(:position)
+
+
+    scultures.each do |sculture|
+      if sculture.position >= self.position
+        sculture.update_attribute(:position, sculture.position + 1)
+      end
+    end
+  end
+
+  before_create :positioning
 end

@@ -3,4 +3,18 @@ class Draw < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
   self.per_page = 6
+
+  def positioning
+
+    draws = Draw.all.order(:position)
+
+
+    draws.each do |draw|
+      if draw.position >= self.position
+        draw.update_attribute(:position, draw.position + 1)
+      end
+    end
+  end
+
+  before_create :positioning
 end

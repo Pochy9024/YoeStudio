@@ -4,39 +4,20 @@ class Painting < ActiveRecord::Base
 
   self.per_page = 6
 
-
-
   def positioning
-    tasks = Painting.all.order(:position)
-    increment = false
-    tasks.each do |t|
-      if !increment && t.position == self.position
-        increment = true
-        t.position += 1
-        t.save
-      elsif increment
-        t.position += 1
-        t.save
-      end
-    end
+
+    paintings = Painting.all.order(:position)
+
+
+      paintings.each do |painting|
+        if painting.position >= self.position
+          painting.update_attribute(:position, painting.position + 1)
+        end
+       end
   end
 
   before_create :positioning
 
-  def swap_position
-    tasks = Painting.all.order(:position)
-    tasks.each do |t|
-      if t.position == self.position
-
-        pos = t.position
-        t.position = self.position
-        self.position = pos
-
-      end
-    end
-  end
-
-  before_update :swap_position
 
 
 end
