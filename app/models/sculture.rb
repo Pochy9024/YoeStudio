@@ -8,7 +8,6 @@ class Sculture < ActiveRecord::Base
 
     scultures = Sculture.all.order(:position)
 
-
     scultures.each do |sculture|
       if sculture.position >= self.position
         sculture.update_attribute(:position, sculture.position + 1)
@@ -17,4 +16,5 @@ class Sculture < ActiveRecord::Base
   end
 
   before_create :positioning
+
 end
