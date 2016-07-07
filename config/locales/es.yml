@@ -20,4 +20,105 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
-  home: "Inicio"
+  lang: 'Idioma'
+    esp: 'Espannol'
+    fra: 'Frances'
+    eng: 'Ingles'
+
+  more: 'Ver Mas'
+
+  by: 'Por'
+
+  home: 'Inicio'
+    welcome: 'Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podra degustar todo su arte.'
+    services:
+      title: 'Servicios'
+      home_works:
+        title: 'Trabajos a domicilio'
+        text: 'Realizo trabajos de restauracion a domicilio...'
+      works:
+        title: 'Trabajos por encargo'
+        text: 'Realizo trabajos por encargo de cualkier manifestacion...'
+      date:
+        title: 'Concertar cita'
+        text: 'Ud podra concertar una cita y discutir sobre cualkier servicio o trabajo que desee realizar....'
+    recent_works: 'Trabajos Recientes'
+
+  paintings:
+    title: 'Pinturas'
+    text: '<p>La obra pictórica de Yoe Riba conceptualiza esencias que trabaja con líneas sueltas llenas de alegrías,
+                     estén coloridas o no. La trama de ideas que siempre expone en sus obras es la mezcla de lo real llevado a lo
+                     surreal y lo abstracto según la percepción del propio artista.</p>'
+  scultures:
+    title: 'Esculturas'
+    text: '<p>En la <strong>escultura</strong> del artista se observa una técnica del volumen bien notable que se definen con un mismo
+                              estilo de trabajo, que con líneas limpias y un trabajo rico en texturas complementan una obra de gran variedad
+                              de formas.</p>'
+  photos:
+    title: 'Fotografias'
+    text: '<p>La <strong>fotografía</strong> como artes visuales es una técnica que se muestra atractiva y útil para la ornamentación
+                          y usos profesionales diversos. <strong>Yoe Riba</strong> la realiza logrando gran variedad de imágenes siendo una de sus tesis
+                          <strong>“No crear escenarios por él”</strong>, sino que los capta de la propia naturaleza, a excepción de los trabajos para sus
+                          clientes.</p>'
+  draws:
+    title: 'Dibujos'
+    text: '<p><strong>Yoe Riba</strong> usa en sus <strong>dibujos</strong> diferentes elementos para la creación de estos, el trabajo con las áreas,
+                         las líneas y la formas. Llena el área de trabajo  enfocándose en crear un mensaje que expone a través
+                         de sus combinaciones figura compleja – fondo simple.</p>'
+  designs:
+    title: 'Disennos'
+    text: '<p>Los diseños de <strong>Yoe Riba</strong> son realizados siempre en plena comunicación entre los clientes y el diseñador.
+                          Como resultado de un gran trabajo con dedicación se obtiene una variada muestra de diseños.</p>'
+  piece:
+    technic: 'Tecnica'
+    dimention: 'Dimensiones'
+    year: 'Anno'
+
+  about_me:
+    title: 'Sobre Mi'
+    name: 'Yoesdanys Rivero Batista (Yoe Riba) (Cuba 1983-)'
+    occupation: 'Diseñador y Artista Visual.'
+    text:
+      1: 'Ha realizado diez cursos de Artes Visuales y Diseño, promoción, valoración y comercialización en
+                    varias provincias del País.'
+      2: 'Ha realizado 4 exposiciones personales, 4 bipersonales y ha participado además en más de 35
+                    exposiciones colectivas, entre Salones Internaciones, Nacionales, y otras exposiciones realizadas en
+                    varias provincias.'
+      3: 'Diseñador y editor de varios boletines de arte, logos de negocios privados, carteles de eventos y
+                    catálogos de productos y servicios.'
+      4: 'Ha realizado numerosos montajes, curadurías y organizaciones de exposiciones y salones de arte
+                    por los que ha recibido Reconocimientos.'
+      5: 'Cuenta en su currículum con la realización de varias donaciones a personalidades e intituciones y
+                    organizaciones, e impartido dos conferencias sobre artesanía.'
+      6: 'Fue miembro de varios proyectos comunitarios de arte como MANYLLO GAV, VIVIART, Sueños y
+                    Fantasías; y fue miembro de varios jurados de arte y moda.'
+      7: 'Su obra se encuentra en colecciones privadas de países como Francia, Suiza, Venezuela, EUA,
+                    Cuba, España, Angola, Italia y Australia.'
+    more: 'Ver mas sobre Yoe Riba'
+    member: 'Miembro de:'
+    pictures:
+       title: 'Yoe Riba'
+       first:
+         title: 'Desfile Inaugural 32 Festival del Caribe.'
+       second:
+         title: 'Escultura de Barro.'
+       third:
+         title: 'Restaurando Puerta de 193X'
+    testimonials:
+         title: 'Testimonios.'
+         text: '(Palabras al Catalogo).'
+
+
+  contact:
+    us: 'Contactenos'
+    title: 'Contacto'
+    studio: 'Estudio'
+    phone: 'Telefono'
+    social:
+      title: 'Redes Sociales'
+      text: 'Tambien pueden encontrarnos en las redes sociales.'
+    design:
+      tile: 'Disenno y desarrollo del Sitio'
+      text: 'La Agencia Publicitaria Skylines fue la encargada del disenno y desarrollo del Sitio, contactelos a traves de '
+
+

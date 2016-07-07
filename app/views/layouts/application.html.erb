@@ -63,29 +63,37 @@
       <ul class="nav navbar-nav navbar-right">
         <ul class="nav navbar-nav navbar-right">
           <li class="<%= 'active' if current_page?(root_path) %>">
-            <%= link_to 'Inicio', root_path %>
+            <%= link_to  t('home'), root_path %>
           </li>
-
           <li class="<%= 'active' if current_page?(about_index_path) %>">
-            <%= link_to 'Sobre Mi', about_index_path %>
+            <%= link_to t('about_me'), about_index_path %>
           </li>
           <li class="<%= 'active' if current_page?(paintings_path) %>">
-            <%= link_to 'Pinturas', paintings_path %>
+            <%= link_to t('paintings'), paintings_path %>
           </li>
           <li class="<%= 'active' if current_page?(photographs_path) %>">
-            <%= link_to 'Fotografias', photographs_path %>
+            <%= link_to t('photos'), photographs_path %>
           </li>
           <li class="<%= 'active' if current_page?(scultures_path) %>">
-            <%= link_to 'Esculturas', scultures_path %>
+            <%= link_to t('scultures'), scultures_path %>
           </li>
           <li class="<%= 'active' if current_page?(draws_path) %>">
-            <%= link_to 'Dibujos', draws_path %>
+            <%= link_to t('draws'), draws_path %>
           </li>
           <li class="<%= 'active' if current_page?(designs_path) %>">
-            <%= link_to 'Disennos', designs_path %>
+            <%= link_to t('designs'), designs_path %>
           </li>
           <li class="<%= 'active' if current_page?(contact_index_path) %>">
-            <%= link_to 'Contacto', contact_index_path %>
+            <%= link_to t('contact'), contact_index_path %>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t('lang') %> <i class="icon-angle-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><%= link_to_unless_current t('lang.esp'), locale: :es %></li>
+              <li><%= link_to_unless_current t('lang.eng'), locale: :en %></li>
+              <li><%= link_to_unless_current t('lang.fra'), locale: :fr %></li>
+
+            </ul>
           </li>
 
         </ul>
@@ -108,16 +116,16 @@
     <div class="row">
 
       <div class="col-footer col-md-4 col-xs-6">
-        <h3>Contacto</h3>
+        <h3><%= t('contact.title') %></h3>
         <p class="contact-us-details">
-          <b>Estudio:</b> Panchito Gomez 323. Apto 2 e/ 20 de Mayo y Enrique Villuendas, Cerro, La Habana<br/>
-          <b>Telefono:</b> +535 316 2809<br/>
+          <b><%= t('contact.studio') %>:</b> Panchito Gomez 323. Apto 2 e/ 20 de Mayo y Enrique Villuendas, Cerro, La Habana<br/>
+          <b><%= t('contact.phone') %>:</b> +535 316 2809<br/>
           <b>E-mail:</b> <a href="mailto:yoeriba@nauta.cu">yoeriba@nauta.cu</a>
         </p>
       </div>
       <div class="col-footer col-md-4 col-xs-6">
-        <h3>Redes Sociales</h3>
-        <p>Tambien pueden encontrarnos en las redes sociales.</p>
+        <h3><%= t('contact.social.title') %></h3>
+        <p><%= t('contact.social.text') %></p>
         <br>
         <center>
         <div>
@@ -136,9 +144,9 @@
         </center>
       </div>
       <div class="col-footer col-md-4 col-xs-6">
-        <h3>Disenno y desarrollo del Sitio</h3>
-        <p>La Agencia Publicitaria Skylines fue la encargada del disenno y desarrollo del Sitio, contactelos a traves de :<br>
-          <b>Telefono:</b> +535 268 6068<br/>
+        <h3><%= t('contact.design.tile') %></h3>
+        <p><%= t('contact.design.text') %>:<br>
+          <b><%= t('contact.phone') %>:</b> +535 268 6068<br/>
           <b>E-mail:</b> <a href="mailto:skylinesagency@gmail.cu">skylinesagency@gmail.com</a></p>
       </div>
 

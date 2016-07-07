@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>Sobre Mi</h1>
+        <h1><%= t('about_me.title') %></h1>
       </div>
     </div>
   </div>
@@ -16,38 +16,30 @@
         <%= image_tag 'img/about/03 Yoe Riba (haciendo arte en vivo en Stgo de Cuba).jpg' %>
       </div>
       <div class="col-sm-8">
-        <center><h3>Yoesdanys Rivero Batista (Yoe Riba) (Cuba 1983-)</h3></center>
-        <center><h4>Diseñador y Artista Visual.</h4></center>
+        <center><h3><%= t('about_me.name') %></h3></center>
+        <center><h4><%= t('about_me.occupation') %></h4></center>
         <p>
-          Ha realizado diez cursos de Artes Visuales y Diseño, promoción, valoración y comercialización en
-          varias provincias del País.
+          <%= t('about_me.text.1') %>
         </p>
         <p>
-          Ha realizado 4 exposiciones personales, 4 bipersonales y ha participado además en más de 35
-          exposiciones colectivas, entre Salones Internaciones, Nacionales, y otras exposiciones realizadas en
-          varias provincias.
+          <%= t('about_me.text.2') %>
         </p>
         <p>
-          Diseñador y editor de varios boletines de arte, logos de negocios privados, carteles de eventos y
-          catálogos de productos y servicios.
+          <%= t('about_me.text.3') %>
         </p>
         <p>
-          Ha realizado numerosos montajes, curadurías y organizaciones de exposiciones y salones de arte
-          por los que ha recibido Reconocimientos.
+          <%= t('about_me.text.4') %>
         </p>
         <p>
-          Cuenta en su currículum con la realización de varias donaciones a personalidades e intituciones y
-          organizaciones, e impartido dos conferencias sobre artesanía.
+          <%= t('about_me.text.5') %>
         </p>
         <p>
-          Fue miembro de varios proyectos comunitarios de arte como MANYLLO GAV, VIVIART, Sueños y
-          Fantasías; y fue miembro de varios jurados de arte y moda.
+          <%= t('about_me.text.6') %>
         </p>
         <p>
-          Su obra se encuentra en colecciones privadas de países como Francia, Suiza, Venezuela, EUA,
-          Cuba, España, Angola, Italia y Australia.
+          <%= t('about_me.text.7') %>
         </p>
-        <center><a href="https://www.linkedin.com/in/yoeriba">Ver mas sobre Yoe Riba</a> </center>
+        <center><a href="https://www.linkedin.com/in/yoeriba"><%= t('about_me.more') %></a> </center>
         <br>
         <br>
 
@@ -56,7 +48,7 @@
 
         <div class="clients-logo-wrapper text-center row">
           <br>
-          Miembro de:
+          <%= t('about_me.member') %>
           <div>
             <%= image_tag 'img/about/logos/logo_acaa.jpg' %>
             <%= image_tag 'img/about/logos/Registro Nacional de Diseño.jpg' %>
@@ -82,9 +74,9 @@
             <ul>
               <!-- Team Member Info & Social Links -->
               <li class="team-member-name">
-                Yoe Riba
+                <%= t('about_me.pictures.title') %>
               </li>
-              <li>Desfile Inaugural 32 Festival del Caribe.</li>
+              <li><%= t('about_me.pictures.first.title') %></li>
             </ul>
           </div>
         </div>
@@ -96,11 +88,9 @@
           <div class="team-member-info">
             <ul>
               <li class="team-member-name">
-                Yoe Riba
+                <%= t('about_me.pictures.title') %>
 							</li>
-              <li>
-                Escultura de Barro.
-              </li>
+              <li><%= t('about_me.pictures.second.title') %></li>
             </ul>
           </div>
         </div>
@@ -111,9 +101,9 @@
           <div class="team-member-info">
             <ul>
               <li class="team-member-name">
-                Yoe Riba
+                <%= t('about_me.pictures.title') %>
               </li>
-              <li>Restaurando Puerta de 193X</li>
+              <li><%= t('about_me.pictures.third.title') %></li>
             </ul>
           </div>
         </div>
@@ -129,12 +119,12 @@
     <div class="row">
       <!-- Featured News -->
 
-        <center><h1>Testimonios.</h1></center>
-      <center><h4>(Palabras al Catalogo).</h4></center>
+        <center><h1><%= t('about_me.testimonials.title') %></h1></center>
+        <center><h4><%= t('about_me.testimonials.text') %></h4></center>
       <br>
         <% @testimonials.each do |t| %>
                 <div class="caption"><h3><a><%= t.title %></a></h3></div>
-                <div class="date"><strong>Por: <%= t.author %></strong> </div>
+                <div class="date"><strong><%= t('by') %>: <%= t.author %></strong> </div>
                 <div class="intro"><p>"...<%= t.text %>.."</p></div>
                 <br>
                 <hr>

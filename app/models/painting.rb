@@ -18,6 +18,4 @@ class Painting < ActiveRecord::Base
 
   before_create :positioning
 
-
-
 end
