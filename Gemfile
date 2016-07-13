@@ -51,4 +51,7 @@ gem 'puma'
 gem 'rails_admin'
 gem 'will_paginate', '~> 3.1.0'
 gem 'acts_as_list'
+gem 'globalize'
+gem 'rails_admin_globalize_field'
+
 
