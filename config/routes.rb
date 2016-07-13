@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   devise_for :users
 
-  get 'about/index'
+  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
+
+
+
+    get 'about/index'
 
   get 'contact/index'
 
@@ -18,6 +22,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'slides#index'
+  end
+
+  get '*path', to: redirect("/#{I18n.default_locale}/%{path}"), constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
+  get '', to: redirect("/#{I18n.default_locale}/slides")
 
 
   # Example of regular route:
