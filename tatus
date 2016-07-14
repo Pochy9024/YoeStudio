@@ -1,0 +1,193 @@
+[33mcommit e279137570f163c32c91fb2d678400d3a9204252[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jul 13 09:15:10 2016 -0400
+
+    globalize models
+
+[33mcommit c34541b0ce76e418872e21111584c8c217311b37[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Tue Jul 12 09:29:54 2016 -0400
+
+    model translations
+
+[33mcommit 83767b872c2602698f480051ab79cbcb46488511[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Thu Jul 7 10:48:05 2016 -0400
+
+    internationalization added
+
+[33mcommit 69533ce5255245d59148a952a5deb617ea07b3fa[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Thu Jun 30 15:50:01 2016 -0400
+
+    edit logo and add favicon
+
+[33mcommit 917c819cbff510b33bfae76089258bf761b5311e[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Thu Jun 30 12:22:25 2016 -0400
+
+    insert model by position
+
+[33mcommit 81b7ade82a577d66216310d7e4986f5a6e61f026[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 29 15:43:22 2016 -0400
+
+    callback for positioning before_save
+
+[33mcommit 1d8fc47419fbacf7a4afffd55a6a5b0cf251faab[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 29 12:25:46 2016 -0400
+
+    install devise
+
+[33mcommit 0d63a740869dea39bd4427765356449b2474cae6[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 29 11:22:27 2016 -0400
+
+    fix fields on models
+
+[33mcommit 4fbd98d8768c652c0f2e5e78fbe7968c23951696[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 29 11:18:42 2016 -0400
+
+    fix slider
+
+[33mcommit 3b778f7d55ec94cde3ed10801e54ffd88d6a8b27[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 29 11:14:13 2016 -0400
+
+    fix recent work view
+
+[33mcommit 537a7079d3797b03b201258089d2e7a96781a514[m
+Author: Jorge T <jotolo7@gmail.com>
+Date:   Wed Jun 29 10:17:32 2016 -0400
+
+    ammend
+
+[33mcommit d65d234ff2472a9433b233483a1826f29a46d344[m
+Author: Jorge T <jotolo7@gmail.com>
+Date:   Tue Jun 28 12:02:31 2016 -0400
+
+    test
+
+[33mcommit 3c9f6c7ff023064aa48ded5f62e3b9e48df8175d[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Fri Jun 24 14:34:02 2016 -0400
+
+    add pagination
+
+[33mcommit 0ba331cff91f188345ae245736f4255d272add66[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Fri Jun 24 10:10:35 2016 -0400
+
+    adjust paperclip => :card method for models
+
+[33mcommit fd06a58cf46dac748a76d242f5fdf975eeb6b18f[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Fri Jun 24 09:47:35 2016 -0400
+
+    update all views in models (still missing update design/idex-view)
+
+[33mcommit 6a0b24c3879b2f633ce6a81c78bed20d769b42a4[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Thu Jun 23 12:50:48 2016 -0400
+
+    edit index page
+
+[33mcommit bf585cfa77c3b493d32e3c36a469417f812bed4e[m
+Author: Jorge T <jotolo7@gmail.com>
+Date:   Thu Jun 23 10:51:24 2016 -0400
+
+    fixing font awesome
+
+[33mcommit a3bed35283bec556a7e06aa9ce96218028bafc2d[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Thu Jun 23 10:43:44 2016 -0400
+
+    config slides
+
+[33mcommit adcc7759b71c19bbb7ebcdf3fc2687cd6b8300d6[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 16:39:47 2016 -0400
+
+    fix logo bug
+
+[33mcommit 0783087cd4a1ce7f735b3cff0c4d017c934b5a80[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 16:23:58 2016 -0400
+
+    modify "about me" page
+
+[33mcommit bd74682b24b656669fc15f69c806d5f40bfe4ec8[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 15:52:18 2016 -0400
+
+    edit 'about me ' page
+
+[33mcommit 57f6d8cb1aec10324c0d597e4a2b828b499ed7e9[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 15:16:44 2016 -0400
+
+    config css
+
+[33mcommit 6d4f2634f78d9df403f9750a03dc514703458313[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 11:27:39 2016 -0400
+
+    config contact view
+
+[33mcommit 753965ab255317bd800ae8c79a3daa8f35cc1357[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 11:04:57 2016 -0400
+
+    install rails_admin
+
+[33mcommit a4e890dfd0f36f6dbe6013a5ac1fc320459635e8[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 10:59:01 2016 -0400
+
+    config assets
+
+[33mcommit 12b576546603f43464ac73b7faef2f2d7051ae23[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Wed Jun 22 10:17:04 2016 -0400
+
+    adding assets and config routes
+
+[33mcommit b2a780de1cadc0acc51198bbd1cc92ce91ebfc8e[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 13:21:39 2016 -0400
+
+    file atached to models with paperclip
+
+[33mcommit b4180207bfb34c4af34857862e72383b28dabda0[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 11:06:23 2016 -0400
+
+    adding models
+
+[33mcommit 69776c22c2c80025e1b493b4b089541c661ca7d8[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 10:21:43 2016 -0400
+
+    creating slides
+
+[33mcommit 7260695389ea98d1aa06588e8afad21b50ab835a[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 10:13:16 2016 -0400
+
+    creating all models
+
+[33mcommit 4e3c95eb42b673399d1b91424c440284e24c70b3[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 09:47:33 2016 -0400
+
+    first commit
+
+[33mcommit 6e0bd273774a4e4800fa7e5ef0860b414a1b7898[m
+Author: Carlito <carlito@fec.uh.cu>
+Date:   Mon Jun 20 09:43:11 2016 -0400
+
+    Initial commit
+    
+    first commit
