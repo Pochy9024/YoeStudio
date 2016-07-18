@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
-#source 'file:///home/jorge/mygems/'
+#source 'https://rubygems.org'
+source 'file:///home/jotolo/mygems/'
     
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -53,5 +53,6 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'acts_as_list'
 gem 'globalize'
 gem 'rails_admin_globalize_field'
+gem 'redcarpet'
 
 
