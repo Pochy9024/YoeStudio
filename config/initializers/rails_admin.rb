@@ -127,8 +127,7 @@ RailsAdmin.config do |config|
     config.included_models = config.models_pool + %W(Design::Translation)
 
     config.model 'Design' do
-      configure :translations, :globalize_tabs
-      exclude_fields :technic
+
 
       update do
         exclude_fields :position
@@ -136,13 +135,7 @@ RailsAdmin.config do |config|
 
     end
 
-    config.model 'Design::Translation' do
-      visible false
-      configure :locale, :hidden do
-        help ''
-      end
-      include_fields :locale, :technic
-    end
+
 
     ## slide config for model
     config.included_models = config.models_pool + %W(Slide::Translation)

@@ -11,23 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160712131109) do
-
-  create_table "design_translations", force: :cascade do |t|
-    t.integer  "design_id",  null: false
-    t.string   "locale",     null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "technic"
-  end
-
-  add_index "design_translations", ["design_id"], name: "index_design_translations_on_design_id"
-  add_index "design_translations", ["locale"], name: "index_design_translations_on_locale"
+ActiveRecord::Schema.define(version: 20160719180214) do
 
   create_table "designs", force: :cascade do |t|
     t.text     "title"
-    t.string   "technic"
-    t.string   "dimentions"
     t.integer  "year"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false

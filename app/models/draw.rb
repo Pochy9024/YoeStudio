@@ -3,6 +3,8 @@ class Draw < ActiveRecord::Base
   translates :technic, fallbacks_for_empty_translations: true
   accepts_nested_attributes_for :translations, allow_destroy: true
 
+  validates_presence_of :position
+
   has_attached_file :image, styles: { medium: "450x450!", thumb: "100x100>", card: '1200x750!' },
                     :convert_options =>  {
                         :medium => "-normalize -quality 60  -interlace Plane",
