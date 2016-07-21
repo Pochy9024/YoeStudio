@@ -29,12 +29,12 @@ es:
   by: 'Por'
   home:
     title: 'Inicio'
-    welcome_html: 'Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podra degustar todo su arte.'
+    welcome_html: 'Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podra apreciar su arte.'
     services:
       title: 'Servicios'
       home_works:
         title: 'Artes Visuales'
-        text: 'Dibujos, Pinturas, Sculturas, Fotografias'
+        text: 'Dibujos, Pinturas, Esculturas, Fotografias'
       works:
         title: 'Diseños'
         text: 'Diseño grafico y digital, Manual de Identidad'
@@ -49,20 +49,19 @@ es:
                      surreal y lo abstracto según la percepción del propio artista.</p>'
   scultures:
     title: 'Esculturas'
-    text_html: '<p>En la <strong>escultura</strong> del artista se observa una técnica del volumen bien notable que se definen con un mismo
-                              estilo de trabajo, que con líneas limpias y un trabajo rico en texturas complementan una obra de gran variedad
+    text_html: '<p>En la <strong>escultura</strong> del artista se observa una técnica del volumen bien notable que define un mismo
+                              estilo de trabajo, con líneas limpias y riqueza en texturas que complementan una obra de gran variedad
                               de formas.</p>'
   photos:
     title: 'Fotografias'
-    text_html: '<p>La <strong>fotografía</strong> como artes visuales es una técnica que se muestra atractiva y útil para la ornamentación
+    text_html: '<p>La <strong>fotografía</strong> como arte visual es una técnica que se muestra atractiva y útil para la ornamentación
                           y usos profesionales diversos. <strong>Yoe Riba</strong> la realiza logrando gran variedad de imágenes siendo una de sus tesis
                           <strong>“No crear escenarios por él”</strong>, sino que los capta de la propia naturaleza, a excepción de los trabajos para sus
                           clientes.</p>'
   draws:
     title: 'Dibujos'
-    text_html: '<p><strong>Yoe Riba</strong> usa en sus <strong>dibujos</strong> diferentes elementos para la creación de estos, el trabajo con las áreas,
-                         las líneas y la formas. Llena el área de trabajo  enfocándose en crear un mensaje que expone a través
-                         de sus combinaciones figura compleja – fondo simple.</p>'
+    text_html: '<p><strong>Yoe Riba</strong> usa en sus <strong>dibujos</strong> diferentes elementos para la creación de estos, áreas,
+                          líneas y formas.Se enfoca en crear un mensaje que expone a través de sus combinaciones figura compleja – fondo simple.</p>'
   designs:
     title: 'Diseños'
     text_html: '<p>Los diseños de <strong>Yoe Riba</strong> son realizados siempre en plena comunicación entre los clientes y el diseñador.
@@ -70,12 +69,12 @@ es:
   about_me:
     name: 'Yoesdanys Rivero Batista (Yoe Riba) (Cuba 1983-)'
     occupation: 'Diseñador y Artista Visual.'
-    text_html: '<p>Ha realizado diez cursos de Artes Visuales y Diseño, promoción, valoración y comercialización en varias provincias del País.</p>
-           <p>Ha realizado 4 exposiciones personales, 4 bipersonales y ha participado además en más de 35 exposiciones colectivas, entre Salones Internaciones, Nacionales, y otras exposiciones realizadas en varias provincias.</p>
-           <p>Diseñador y editor de varios boletines de arte, logos de negocios privados, carteles de eventos y catálogos de productos y servicios.</p>
-           <p>Ha realizado numerosos montajes, curadurías y organizaciones de exposiciones y salones de arte por los que ha recibido Reconocimientos.</p>
-           <p>Cuenta en su currículum con la realización de varias donaciones a personalidades e intituciones y organizaciones, e impartido dos conferencias sobre artesanía.</p>
-           <p>Fue miembro de varios proyectos comunitarios de arte como Manyllo Gav, VIVIART, Sueños y Fantasías; y fue miembro de varios jurados de arte y moda.</p>
+    text_html: '<p>Ha realizado diez cursos de Artes Visuales, Diseño, promoción, valoración y comercialización en varias provincias del País.</p>
+           <p>Ha realizado 4 exposiciones personales, 4 bipersonales y ha participado en más de 35 exposiciones colectivas, entre Salones Internaciones, Nacionales, y otras exposiciones realizadas en varias provincias.</p>
+           <p>Diseñador y editor de boletines de arte, logos de negocios privados, carteles de eventos y catálogos de productos y servicios.</p>
+           <p>Ha realizado numerosos montajes, curadurías, organizaciones de exposiciones y salones de arte por los que ha recibido Reconocimientos.</p>
+           <p>Cuenta en su currículum con la realización de varias donaciones a personalidades e intituciones, e impartido dos conferencias sobre artesanía.</p>
+           <p>Fue miembro de varios proyectos comunitarios de arte como Manyllo Gav, VIVIART, Sueños y Fantasías; y ha participado como jurado de arte y moda.</p>
            <p>Su obra se encuentra en colecciones privadas de países como Francia, Suiza, Venezuela, EUA, Cuba, España, Angola, Italia y Australia.</p>'
     title: 'Sobre Mi'
     more: 'Ver mas sobre Yoe Riba'

@@ -1,5 +1,5 @@
-en:
+fr:
   will_paginate:
-    previous_label: "Anterior"
-    next_label: "Siguiente"
+    previous_label: "&#8592; Antérieure"
+    next_label: "Prochain &#8594;"
     page_gap: "…"
