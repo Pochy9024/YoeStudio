@@ -38,7 +38,7 @@
 </div>
 <% if @paintings.count > 6 %>
     <div class="apple_pagination">
-      <%= will_paginate @paintings, :container => true %>
+      <%= will_paginate @paintings, :container => true, :previous_label => t("will_paginate.previous_label"), :next_label => t("will_paginate.next_label")  %>
     </div>
 <% end %>
 
