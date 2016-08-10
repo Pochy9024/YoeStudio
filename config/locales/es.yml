@@ -23,13 +23,13 @@ es:
   lang:
     title: 'Idioma'
     esp: 'Español'
-    fra: 'Frances'
-    eng: 'Ingles'
+    fra: 'Francés'
+    eng: 'Inglés'
   more: 'Ver Mas'
   by: 'Por'
   home:
     title: 'Inicio'
-    welcome_html: 'Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podra apreciar su arte.'
+    welcome_html: 'Bienvenido al <span style="color:#aec62c; text-transform:uppercase;font-size:24px;">Estudio Virtual de Yoe Riba!</span> donde podrá apreciar su arte.'
     services:
       title: 'Servicios'
       home_works:
